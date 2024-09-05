@@ -10,7 +10,7 @@ exports.getUsers = async (req, res) => {
     }
 };
 
-exports.createUser = async (req, res) => {
+exports.createUser = async (req, res) => { 
     try {
         
         console.log(req.body)
