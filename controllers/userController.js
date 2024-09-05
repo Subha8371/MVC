@@ -5,7 +5,7 @@ exports.getUsers = async (req, res) => {
         const users = await User.findAll();
         // console.log(users,"ssssssssssss")
         res.render('users', { users });
-    } catch (error) {
+    } catch (error) { 
         res.status(500).send('Server Error');
     }
 };
